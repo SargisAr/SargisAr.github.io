@@ -1,0 +1,310 @@
+
+@media (max-width: 1760px) {
+	.skills__section{
+		height: 2500px;
+	}
+}
+
+
+
+@media (max-width: 1510px) {
+	.skills__section{
+		height: 3100px;
+	}
+}
+
+
+@media (max-width: 1250px) {
+	.skills__section{
+		height: 4400px;
+	}
+}
+
+
+@media (max-width: 1350px) {
+	.project-wrapper {
+		height: 3300px;
+	}
+}
+
+@media (max-width: 1210px) {
+	.header_top_nav{
+		padding: 25px 65px;
+	}
+}
+
+@media (max-width: 1190px) {
+	.project-wrapper {
+		height: 3000px;
+	}
+}
+
+
+@media (max-width: 1140px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+
+
+
+/* iPad Pro */
+@media (max-width: 1024px) {
+	.container {
+		max-width: none;
+	}
+
+	.cursor,
+	.cursor2{
+		display: none;
+	}
+}
+/* iPad Pro */
+
+@media (max-width: 1010px) {
+	.title{
+		top: 260px;
+	}
+
+	.skills__card-wrapper {
+		padding: 0 180px;
+	}
+
+	.skills__section{
+		height: 4900px;
+	}
+
+	#cards{
+		margin-top: 150px;
+	}
+
+	.projects-t{
+		top: 0;
+	}
+
+	.project-wrapper{
+		height: 2500px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+		padding: 0 25px;
+	}
+
+	.header_top_nav{
+		padding: 25px 0;
+	}
+}
+
+@media (max-width: 865px) {
+	.header_top_nav_contact_information_mob{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.header_top_nav_contact_information{
+		display: none;
+	}
+
+	nav{
+		max-width: unset;
+		width: 100%;
+	}
+
+	.skills__card-wrapper {
+		padding: 0 130px;
+	}
+
+}
+
+@media (max-width: 850px) {
+	.project-wrapper{
+		height: 3500px;
+	}
+
+	.card__content{
+		height: 100vh;
+	}
+}
+
+
+/* Samsung Galaxy Tab 10 */
+@media (max-width: 800px) {
+	.container {
+		max-width: none;
+	}
+
+}
+/* Samsung Galaxy Tab 10 */
+
+@media (max-width: 770px) {
+	.skills__card-wrapper {
+		padding: 0 100px;
+	}
+
+}
+
+
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+
+@media (max-width: 710px) {
+	.skills__card-wrapper {
+		padding: 0 60px;
+	}
+
+	.card__content,
+	.card__content > div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card__content > div{
+		padding-top: 25px;
+	}
+	.card__content > div h2{
+		text-align: center;
+	}
+
+}
+
+
+@media (max-width: 670px){
+	.header_cover_text h2{
+		font-size: 78px;
+	}
+}
+
+@media (max-width: 650px) {
+	.project-wrapper{
+		height: 3500px;
+	}
+}
+
+@media (max-width: 630px) {
+	.skills__card-wrapper {
+		padding: 0 40px;
+	}
+
+}
+
+/* Nexus 7 (2013) */
+@media (max-width: 600px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Nexus 7 (2013) */
+
+@media (max-width: 590px) {
+	.skills__card-wrapper {
+		padding: 0 20px;
+	}
+
+}
+
+@media (max-width: 550px) {
+	.skills__card-wrapper {
+		padding: 0 10px;
+	}
+
+}
+
+@media (max-width: 530px) {
+	.skills__section{
+		height: 8800px;
+	}
+
+	.skills__row {
+		justify-content: center;
+	}
+
+	.card{
+		width: 100%;
+	}
+
+
+
+}
+
+@media (max-width: 500px) {
+	main{
+		width: 100%;
+	}
+}
+
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+@media (max-width: 480px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+
+@media (max-width: 440px){
+	.header_cover_text h2{
+		font-size: 48px;
+	}
+}
+
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus */
+@media (max-width: 414px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus  */
+
+
+
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+@media (max-width: 375px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+
+
+
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+@media (max-width: 360px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+
+@media (max-width: 330px) {
+	.skills__wrapper{
+		margin-top: 350px;
+	}
+
+	.title{
+		top: 400px;
+	}
+
+	.projects-t{
+		top: 0;
+	}
+}
+
+/* iPhone 5, iPod Touch */
+@media (max-width: 320px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone 5, iPod Touch */
