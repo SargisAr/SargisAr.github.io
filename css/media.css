@@ -41,6 +41,10 @@
 	.container {
 		max-width: none;
 	}
+	.cursor,
+	.cursor2{
+		display: none;
+	}
 }
 /* iPad Pro */
 
