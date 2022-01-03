@@ -1,0 +1,452 @@
+@media (max-width: 1140px) {
+	.container {
+		max-width: 970px;
+	}
+
+	.scr_burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.header_menu_block{
+		display: none;
+	}
+
+	.scr_header_menu_block{
+		display: none;
+	}
+
+	.header_contact_block{
+		display: none;
+	}
+
+	.scr_header_contact_block{
+		display: none;
+	}
+
+	.reg_btn_box{
+		display: none;
+	}
+
+	.reg_btn_box_mobile{
+		display: block;
+		margin: 50px 0 0 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+		padding: 0 25px;
+	}
+
+	.scr_burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.header_menu_block{
+		display: none;
+	}
+
+	.scr_header_menu_block{
+		display: none;
+	}
+
+	.header_contact_block{
+		display: none;
+	}
+
+	.scr_header_contact_block{
+		display: none;
+	}
+
+	.header_text_block{
+		padding: 0 10px;
+	}
+
+	.header_text_block h2{
+		letter-spacing: 3px;
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.header_text_block h3{
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.header_text_block a{
+		padding: 15px 25px;
+		font-size: 12px;
+	}
+
+	.about_onelife_content{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.about_onelife_text_block{
+		width: 100%;
+		padding: 80px 0 0 0;
+	}
+
+	.about_onelife_img_block{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.our_trainers_item_box{
+		flex-wrap: wrap;
+	}
+
+	.our_trainers_item{
+		width: 45%;
+	}
+
+	.our_trainers_item_info{
+		padding: 0 25px;
+	}
+
+	.personal_trainer_content{
+		flex-direction: column;
+		height: 1000px;
+	}
+
+	.personal_trainer_img_block{
+		width: 100%;
+	}
+
+	.personal_trainer_text_block{
+		width: 100%;
+		height: 1100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IPad */
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+
+	.header_text_block{
+		margin-top: 100px;
+	}
+
+	.header_text_block h2{
+		letter-spacing: 3px;
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.header_text_block h3{
+		font-size: 28px;
+		margin-bottom: 10px;
+	}
+
+	header{
+		background-position: center;
+	}
+
+	.header_nav_block{
+		padding: 0 10px 0 0;
+	}
+
+	.header_text_block a{
+		padding: 15px 25px;
+		font-size: 12px;
+	}
+
+	.scr_header{
+		padding: 0 10px 0 0 ;
+	}
+
+	.about_onelife_text_block h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+
+	.about_onelife_text_block h1 {
+		letter-spacing: 3px;
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.about_onelife_text_block p {
+	   font-size: 13px;
+	   line-height: 2.145;
+	   font-weight: 400;
+	   text-align: justify;
+	}	
+
+	.footer_item_box{
+		flex-direction: column;
+	}
+
+	.personal_trainer_text_block_title{
+		padding: 80px 0 0 70px;
+	}
+
+	.personal_trainer_text_block_title h2 {
+		letter-spacing: 3px;
+		font-size: 28px;
+		line-height: 30px;
+	}
+}
+/* IPad */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Surface Duo */
+@media (max-width: 540px) {
+	.container {
+		max-width: none;
+	}
+
+	.our_trainers_item_box{
+		flex-wrap: unset;
+		flex-direction: column;
+	}
+
+	.our_trainers_item{
+		width: 80%;
+	}
+
+	.our_trainers_tetx_box h3{
+		font-size: 18px;
+   	margin-bottom: 10px;
+	}
+
+	.our_trainers_tetx_box h2{
+		letter-spacing: 3px;
+   	font-size: 28px;
+   	line-height: 30px;
+	}
+
+	.personal_trainer_text_block_title{
+		padding: 80px 25px 0 70px;
+	}
+
+	.personal_trainer_text_block_info {
+		padding: 0 10px 0 70px;
+	}
+}
+
+/* Surface Duo */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Iphone 6/7/8 Plus */
+@media (max-width: 414px) {
+	.container {
+		max-width: none;
+	}
+
+	.personal_trainer_text_block_title{
+		padding: 50px 0 0 40px;
+	}
+
+	.personal_trainer_text_block_info {
+		padding: 0 10px 0 40px;
+	}
+
+	.personal_trainer_text_block_btn{
+		padding: 0 0 0 40px;
+	}
+}
+/* Iphone 6/7/8 Plus */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pixel 2, Pixel 2XL */
+@media (max-width: 411px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Pixel 2, Pixel 2XL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Iphone 6/7/8, Iphone X */
+@media (max-width: 375px) {
+	.container {
+		max-width: none;
+	}
+
+	.personal_trainer_text_block{
+		height: 1300px;
+	}
+}
+/* Iphone 6/7/8, Iphone X */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Moto G4, Galaxy S5 */
+@media (max-width: 360px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Moto G4, Galaxy S5 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Iphone 4, Iphone 5/SE */
+@media (max-width: 320px) {
+	.container {
+		max-width: none;
+	}
+
+	.cuotes p {
+		font-size: 26px;
+	}	
+
+	.cuotes{
+		height: 150px;
+	}
+
+	.our_trainers_item_info{
+		padding: 0 0;
+	}
+
+	.footer_logo{
+		width: 200px;
+		height: 200px;
+	}
+}
+/* Iphone 4, Iphone 5/SE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Galaxy Fold */
+@media (max-width: 280px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Galaxy Fold */

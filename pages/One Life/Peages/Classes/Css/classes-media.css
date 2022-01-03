@@ -1,0 +1,246 @@
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+/* Стили для десктопа - начало */
+/* Desktop Styles - Getting Started */
+
+@media (max-width: 1140px) {
+	.container {
+		max-width: 970px;
+	}
+
+	.scr_burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.burger_menu{
+		display: block;
+		z-index: 100;
+	}
+
+	.header_menu_block{
+		display: none;
+	}
+
+	.scr_header_menu_block{
+		display: none;
+	}
+
+	.header_contact_block{
+		display: none;
+	}
+
+	.scr_header_contact_block{
+		display: none;
+	}
+
+	
+	.reg_btn_box{
+		display: none;
+	}
+
+	.reg_btn_box_mobile{
+		display: block;
+		margin: 50px 0 0 0;
+	}
+
+}
+
+
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+		padding: 0 25px;
+	}
+
+	.classes_item{
+		width: 45%;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+}
+
+@media (max-width: 665px) {
+	.container {
+		max-width: none;
+	}
+
+	.footer_item_box{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.container {
+		max-width: none;
+	}
+
+	.classes_item{
+		width: 100%;
+	}
+
+	.scr_header{
+		padding: 0 10px 0 0;
+	}
+}
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+
+
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+/* Стили для Apple - начало */
+/* Apple Styles - Getting Started */
+
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus */
+@media (max-width: 414px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone XR */
+
+
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+@media (max-width: 375px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+
+
+/* iPhone 5, iPod Touch */
+@media (max-width: 320px) {
+	.container {
+		max-width: none;
+	}
+
+	.classes_item_img{
+		top: 89%;
+	}
+}
+/* iPhone 5, iPod Touch */
+
+
+/* iPad Pro */
+@media (max-width: 1024px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPad Pro */
+
+
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+
+
+
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+
+/* Стили для Android - начало */
+/* Android Styles - Getting Started */
+
+/* Nexus 6P, Nexus 5X, Google Pixel 3 XL, Google Pixel 3, Google Pixel 2 XL, Google Pixel XL, Google Pixel */
+@media (max-width: 412px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Nexus 6P, Nexus 5X, Google Pixel 3 XL, Google Pixel 3, Google Pixel 2 XL, Google Pixel XL, Google Pixel */
+
+
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+@media (max-width: 360px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+
+
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+@media (max-width: 480px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+
+
+/* Nexus 9 */
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Nexus 9 */
+
+
+/* Nexus 7 (2013) */
+@media (max-width: 600px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Nexus 7 (2013) */
+
+
+/* Samsung Galaxy Tab 10 */
+@media (max-width: 800px) {
+	.container {
+		max-width: none;
+	}
+}
+/* Samsung Galaxy Tab 10 */
+
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
