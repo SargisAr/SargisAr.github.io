@@ -1,0 +1,536 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+/* Fonts */
+
+/* Open Sans */
+/* font-family: 'Open Sans', sans-serif; */
+/* --------- */
+
+/* Roboto */
+/* font-family: 'Roboto', sans-serif; */
+/* ------ */
+
+/* Roboto Condensed */
+/* font-family: 'Roboto Condensed', sans-serif; */
+/* ---------------- */
+
+/* Montserrat */
+/* font-family: 'Montserrat', sans-serif; */
+/* ---------- */
+
+/* Source Sans Pro */
+/* font-family: 'Source Sans Pro', sans-serif; */
+/* --------------- */
+
+/* Fonts */
+*{
+	font-family: 'Open Sans', sans-serif;
+	transition: all 200ms ease;
+}
+
+body._block{
+	overflow: hidden;
+}
+
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.adapt_menu{
+	position: absolute;
+	z-index: 999;
+	top: -200%;
+	padding: 0 25px;
+	left: 0;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #fff;
+	display: none;
+}
+
+.adapt_menu nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.adapt_menu nav ul li{
+	margin: 30px 0;
+}
+
+.adapt_menu nav ul li a{
+	font-size: 34px;
+	line-height: 42px;
+	font-weight: 700;
+	color: #090909;
+	opacity: 0.5;
+}
+
+.adapt_menu nav ul li:nth-child(1) a{
+	opacity: 1;
+}
+
+.adapt_menu._active{
+	top: 0;
+}
+
+.adapt_menu_language_switch{
+	transform: rotate(-90deg);
+	position: absolute;
+	bottom: 100px;
+	right: 25px;
+}
+
+.adapt_menu_language_switch p{
+	font-size: 24px;
+	line-height: 20px;
+	color: #070707;
+	font-weight: 700;
+}
+
+.adapt_menu_language_switch .ru{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.adapt_menu_language_switch .eng{
+	opacity: 1;
+	cursor: pointer;
+}
+
+#burgerMenu{
+	width: 33px;
+	height: 20px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	z-index: 1000;
+}
+
+.burger_menu_line{
+	width: 100%;
+	height: 3.84px;
+	background: #000000;
+}
+
+.line1{
+	transform-origin: 0% 0%;
+}
+
+.line3{
+	transform-origin: 0% 0%;
+	position: relative;
+}
+
+#burgerMenu._active .line2{
+	transform: scaleY(0);
+}
+
+#burgerMenu._active .line1{
+	background: #828282;
+	transform: rotate(45deg);
+}
+
+#burgerMenu._active .line3{
+	background: #828282;
+	transform: rotate(-45deg);
+	top: 6px;
+	right: 2px;
+}
+
+/* Header CSS Start */
+header{
+	width: 100%;
+	background-color: #fff;
+}
+
+.header_content{
+	width: 100%;
+	padding: 30px 0;
+	border-bottom: 1px solid #828282;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header_menu nav ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_menu nav ul li{
+
+}
+
+.header_menu nav ul li a{
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	color: #828282;
+}
+
+.header_menu nav ul li a:after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	border-radius: 50px;
+	background-color: #070707;
+	transform: scaleX(0);
+	transition: all 200ms ease;
+}
+
+.header_menu nav ul li:hover a:after{
+	content: '';
+	transform: scaleX(1);
+}
+
+/* Header CSS End */	
+
+
+/* Cover CSS Start */
+.cover{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.cover_content{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.cover_first_line{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cover_text_block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cover_title h1{
+	font-size: 47.3392px;
+	line-height: 59px;
+	font-weight: 700;
+	color: #070707;
+
+}
+
+.cover_subtitle p{
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+
+.cover_language_switch{
+	transform: rotate(-90deg);
+}
+
+.cover_language_switch p{
+	font-size: 16px;
+	line-height: 20px;
+	color: #070707;
+	font-weight: 700;
+}
+
+.ru{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.eng{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.cover_second_line{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.cover_img_block{
+	width: 100%;
+	height: 387px;
+	background-image: url(../Img/cover_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+/* Cover CSS End */
+
+
+/* First Section CSS Start */
+.first_section{
+	height: 500px;
+	width: 100%;
+	margin-top: 100px;
+	background-color: #F6F6F6;
+}
+
+.first_section_content{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.first_section_text_block{
+	width: 800px;
+}
+
+.first_section_content h2{
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	font-weight: 700;
+	color: #070707;
+}
+
+.first_section_content p{
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	font-weight: 500;
+	color: #070707;
+	margin: 15px 0;
+}
+/* First Section CSS End */
+
+
+/* Second Section CSS Start */
+.second_section{
+	margin-top: 90px;
+}
+
+.second_section_content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.second_section_text_block{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.second_section_text_block h2{
+	font-size: 34px;
+	line-height: 42px;
+	color: #070707;
+}
+
+.second_section_text_block p{
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin-top: 70px;
+}
+
+.second_section_item_block{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 85px;
+}
+
+.second_section_item{
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.second_section_item_text_block{
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.second_section_item_text_block h4{
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #828282;
+	margin: 25px 0 40px 0;
+}
+/* Second Section CSS End */
+
+
+/* Third Section CSS Start */
+.third_section{
+	margin-top: 200px;
+}
+
+.third_section_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.third_section_text_block{
+
+}
+
+.third_section_text_block h2{
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
+.third_section_item_img{
+	width: 100%;
+	height: 510px;
+	margin-top: 50px;
+}
+
+.third_section_item_img img{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.third_section_item_href{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+	align-items: center;
+}
+
+.third_section_item_href a{
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	text-decoration-line: underline;
+	color: #070707;
+}
+/* Third Section CSS End */
+
+
+/* Footer CSS Start */
+footer{
+	margin-top: 200px;
+	padding-bottom: 50px;
+}
+
+.footer_content{
+	width: 100%;
+}
+
+.footer_text_block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_text_block h2{
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+}
+
+.footer_text_block p{
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	margin: 20px 0 80px 0;
+}
+
+.footer_img_block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_item{
+	width: 40px;
+	height: 40px;
+	margin: 0 30px;
+}
+
+.footer_item img{
+	width: 100%;
+	height: 100%;
+}
+
+.footer_subtitle_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-top: 40px;
+}
+
+.footer_subtitle_text p{
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #828282;
+}
+/* Footer CSS End */

@@ -1,0 +1,189 @@
+
+@media (max-width: 1140px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+
+
+/* iPad Pro */
+@media (max-width: 1024px) {
+	.container {
+		max-width: 1000;
+	}
+
+	.first_section_text_block{
+		width: 100%;
+		padding: 0 100px;
+	}
+}
+/* iPad Pro */
+
+
+
+@media (max-width: 992px) {
+	.container {
+		max-width: none;
+		padding: 0 25px;
+	}
+}
+
+
+
+/* Samsung Galaxy Tab 10 */
+@media (max-width: 800px) {
+	.container {
+		max-width: none;
+	}
+
+	.second_section_item_block{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.second_section_item{
+		margin: 40px 0;
+	}
+}
+/* Samsung Galaxy Tab 10 */
+
+
+
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+@media (max-width: 768px) {
+	.container {
+		max-width: none;
+	}
+
+	header{
+		display: none;
+	}
+
+	.cover_language_switch{
+		display: none;
+	}
+
+	#burgerMenu{
+		display: flex;
+		align-self: stretch;
+	}
+
+	.cover_text_block{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.cover_subtitle{
+		margin-top: 23px;
+	}
+
+	.adapt_menu{
+		display: flex;
+	}
+
+	.third_section_item_img{
+		height: 410px;
+	}
+}
+/* iPad 3 и 4-го поколения, iPad Air 1 и 2, iPad Mini 2 и 3,  iPad Mini */
+
+
+
+/* Nexus 7 (2013) */
+@media (max-width: 600px) {
+	.container {
+		max-width: none;
+	}
+
+	.first_section_text_block{
+		padding: 0 25px;
+	}
+
+	.third_section_item_img{
+		height: 310px;
+	}
+}
+/* Nexus 7 (2013) */
+
+
+
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+@media (max-width: 480px) {
+	.container {
+		max-width: none;
+	}
+
+	.footer_item{
+		margin: 0 10px;
+	}
+}
+/* Samsung Galaxy Note 5, LG G5, One Plus 3 */
+
+
+
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus */
+@media (max-width: 414px) {
+	.container {
+		max-width: none;
+	}
+
+	.cover_img_block{
+		height: 500px;
+	}
+
+	.third_section_item_img{
+		height: 210px;
+	}
+}
+/* iPhone XR, iPhone XS Max, iPhone 8 Plus, iPhone 7 Plus, iPhone 6 Plus/6S Plus  */
+
+
+
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+@media (max-width: 375px) {
+	.container {
+		max-width: none;
+	}
+}
+/* iPhone XS, iPhone X, iPhone 8, iPhone 7, iPhone 6/6S */
+
+
+
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+@media (max-width: 360px) {
+	.container {
+		max-width: none;
+	}
+
+	.first_section_text_block{
+		margin-top: 100px;
+		padding: unset;
+	}
+
+	.second_section{
+		margin-top: 100px;
+	}
+}
+/* Samsung Galaxy Note 9, Samsung Galaxy S9+, Samsung Galaxy S9, Samsung Galaxy S8+, Samsung Galaxy S8, Samsung Galaxy S7 Edge, Samsung Galaxy S7 */
+
+
+
+/* iPhone 5, iPod Touch */
+@media (max-width: 320px) {
+	.container {
+		max-width: none;
+	}
+
+	.first_section_text_block{
+		margin-top: 150px;
+	}
+
+	.second_section{
+		margin-top: 150px;
+	}
+}
+/* iPhone 5, iPod Touch */
